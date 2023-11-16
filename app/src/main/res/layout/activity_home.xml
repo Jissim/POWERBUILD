@@ -1,0 +1,73 @@
+<!-- res/layout/activity_home.xml -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"> <!-- Fond blanc -->
+
+    <!-- Bouton "Nutrition" en haut à gauche -->
+
+    <!-- Bouton "Objectifs" en haut à droite -->
+
+    <ImageButton
+        android:id="@+id/nutritionButton"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:contentDescription="Bouton Nutrition"
+        android:src="@drawable/Logo_banane" />
+
+    <ImageButton
+        android:id="@+id/objectifsButton"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:contentDescription="Bouton Objectifs"
+        android:src="@drawable/logo_haltere" />
+
+    <!-- Bouton "Programme" en bas au centre -->
+    <ImageButton
+        android:id="@+id/programmeButton"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:contentDescription="Bouton Programme"
+        android:src="@drawable/weightlifting_icon" />
+
+    <!-- Bouton "Home" au milieu de la barre de tâches -->
+    <ImageButton
+        android:id="@+id/homeButton"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:contentDescription="Bouton Accueil"
+        android:src="@drawable/home_icon" />
+
+    <!-- Bouton "Profil" à droite de la barre de tâches -->
+    <ImageButton
+        android:id="@+id/profilButton"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:contentDescription="Bouton Profil"
+        android:src="@drawable/profil_icon" />
+
+</RelativeLayout>

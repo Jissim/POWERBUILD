@@ -53,13 +53,22 @@
         android:background="#FF0000"/>
 
     <TextView
-        android:id="@+id/forgotPasswordTextView"
+        android:id="@+id/MDPOubliéBoutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/loginButton"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:text="Mot de passe oublié ?"
+        android:textColor="#FFFFFF"/>
+    <TextView
+        android:id="@+id/InscriptionBoutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/loginButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="Inscription"
         android:textColor="#FFFFFF"/>
 
     <!-- Fond rouge -->
