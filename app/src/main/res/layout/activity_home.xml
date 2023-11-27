@@ -5,8 +5,18 @@
     android:background="#FFFFFF">
 
     <!-- Contenu principal de la page -->
-
+    <!-- Remplacez "background_image" par le nom de votre image dans le dossier "res/drawable" -->
+    android:scaleType="centerCrop"/>
     <!-- Bouton Paramètres/Profil en haut à droite -->
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/null"
+        android:layout_marginBottom="-48dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background_image" />
+    <!-- Bouton settings en haut a droite -->
     <ImageButton
         android:id="@+id/settingsButton"
         android:layout_width="wrap_content"
