@@ -9,14 +9,14 @@
     android:scaleType="centerCrop"/>
     <!-- Bouton Paramètres/Profil en haut à droite -->
 
+    <!-- Bouton settings en haut a droite -->
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_above="@+id/null"
-        android:layout_marginBottom="-48dp"
+        android:layout_above="@+id/bottomNavigation"
         android:scaleType="centerCrop"
-        android:src="@drawable/background_image" />
-    <!-- Bouton settings en haut a droite -->
+        android:src="@drawable/samusulek" />
+
     <ImageButton
         android:id="@+id/settingsButton"
         android:layout_width="wrap_content"
@@ -34,7 +34,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:orientation="horizontal"
-        android:background="@color/colorPrimary">
+        android:background="@color/red">
 
         <!-- Bouton Programme -->
         <Button
