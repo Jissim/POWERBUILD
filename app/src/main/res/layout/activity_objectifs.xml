@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Bouton de retour en haut à gauche -->
+    <ImageButton
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/backarrow"
+        android:contentDescription="Retour"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"/>
+
+    <!-- Conteneur principal (LinearLayout vertical) -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- Moitié supérieure de l'écran avec une image -->
+        <ImageView
+            android:id="@+id/objectivesImageView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/objectives_image"
+            android:scaleType="centerCrop"
+            android:contentDescription="Objectifs Image" />
+
+        <!-- Moitié inférieure de l'écran avec deux boutons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <!-- Bouton "Poids" -->
+            <Button
+                android:id="@+id/weightButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Poids"
+                android:layout_margin="8dp" />
+
+            <!-- Bouton "Mensuration" -->
+            <Button
+                android:id="@+id/measurementButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Mensuration"
+                android:layout_margin="8dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Barre de navigation en bas -->
+    <include layout="@layout/bottom_navigation" />
+
+</RelativeLayout>

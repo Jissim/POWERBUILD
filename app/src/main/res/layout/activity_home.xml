@@ -19,14 +19,16 @@
 
     <ImageButton
         android:id="@+id/settingsButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="43dp"
+        android:layout_height="46dp"
         android:layout_alignParentEnd="true"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
-        android:src="@drawable/ic_settings" />
+        android:scaleType="fitCenter"
+        android:src="@drawable/settings" />
+
 
     <!-- Barre de navigation en bas -->
     <LinearLayout
