@@ -17,17 +17,15 @@
         android:scaleType="centerCrop"
         android:src="@drawable/samusulek" />
 
-    <ImageButton
+    <Button
         android:id="@+id/settingsButton"
-        android:layout_width="43dp"
-        android:layout_height="46dp"
+        android:layout_width="39dp"
+        android:layout_height="43dp"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
+        android:layout_marginEnd="20dp"
         android:layout_marginBottom="16dp"
-        android:scaleType="fitCenter"
-        android:src="@drawable/settings" />
+        android:text="⚙"
+        />
 
 
     <!-- Barre de navigation en bas -->
